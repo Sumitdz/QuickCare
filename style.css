@@ -1,0 +1,190 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: linear-gradient(135deg, #00796b, #009688);
+    color: #fff;
+    padding: 4em 0;
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 85%; /* Adjust this value to set how wide the image should be */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin: 1em auto; /* Center the image */
+    display: block; /* Ensure it's treated as a block element for centering */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.hero-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 2em; /* Ensure this is just bottom margin */
+}
+
+.hero p {
+    margin: 1em 0; /* Add top and bottom margin */
+}
+
+.cta-button {
+    background-color: #00796b;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 2em; /* Increased margin to create more gap */
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.card-grid {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    width: 50px;
+    margin-bottom: 0.5em;
+}
+
+.card h3 {
+    color: #00796b;
+    margin-bottom: 0.5em;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    background-color: #e0f7fa;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial h4 {
+    margin-top: 1em;
+    color: #00796b;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5em;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
