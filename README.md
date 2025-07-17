@@ -68,7 +68,7 @@ Build QuickCare from the source and install dependencies:
 1. **Clone the repository:**
 
 
-   git clone https://github.com/your-username/QuickCare
+   git clone https://github.com/Sumitdz/QuickCare
 
 
 2. **Navigate to the project directory:**
@@ -103,9 +103,4 @@ npm start
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-```
 
----
-
-Let me know your GitHub repo link and I’ll customize the badges too. Or I can help turn this into a downloadable `.md` file if you'd like!
-```
